@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="libary">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create Your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you </p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes </p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-image">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" class="card-image">
+                        <p class="card-title">Darshan Raval</p>
+                        <p class="card-info">This is Darshan Raval. The essential...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" class="card-image">
+                        <p class="card-title">Rahat Fateh Ali...</p>
+                        <p class="card-info">This is Rahat Fateh Ali Khan. best song...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" class="card-image">
+                        <p class="card-title">Thalapathy Vijay</p>
+                        <p class="card-info">This is Thalapathy Vijay. The essential...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/best1.jpg" class="card-image">
+                        <p class="card-title">Arijit Singh</p>
+                        <p class="card-info">Bollywood crooner's essential most song...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/best2.jpg" class="card-image">
+                        <p class="card-title">Top - Bollywood</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                </div>
+
+                <h2>Popular albums and singles</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/popular1.jpg" class="card-image">
+                        <p class="card-title">Aashiqui - 2</p>
+                        <p class="card-info">All heart touching song in Aashiqui-2...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/popular2.jpg" class="card-image">
+                        <p class="card-title">Sanam teri kasam</p>
+                        <p class="card-info">All heart touching song in sanam teri...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/popular3.jpg" class="card-image">
+                        <p class="card-title">Adhuri Kahani</p>
+                        <p class="card-info">All heart touching sad song in Adhuri...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/popular4.jpg" class="card-image">
+                        <p class="card-title">Sahiba</p>
+                        <p class="card-info">All heart touching romantic song...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/popular5.jpg" class="card-image">
+                        <p class="card-title">Patandar</p>
+                        <p class="card-info">All song is very motivational song...</p>
+                    </div>
+                </div>
+
+                <h2>Popular radio</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/bhojpuri1.jpg" class="card-image">
+                        <p class="card-title">Top Khesari Lal...</p>
+                        <p class="card-info">This is Khesari Lal Yadav. The essential...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/bhojpuri2.jpg" class="card-image">
+                        <p class="card-title">Top Pawan Singh</p>
+                        <p class="card-info">This is Pawan Singh. The essential...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/bhojpuri3.webp" class="card-image">
+                        <p class="card-title">Top Dinesh Lal...</p>
+                        <p class="card-info">
+                            Playlist
+                            This is Dinesh Lal Yadav. The essen...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/bhojpuri4.jpg" class="card-image">
+                        <p class="card-title">Top Pramod...</p>
+                        <p class="card-info">This is Pramod Premi Yadav. The essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/bhojpuri5.jpg" class="card-image">
+                        <p class="card-title">Top Neelkamal...</p>
+                        <p class="card-info">Neelkamal Shing With Shivani Singh Played...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-image">
+                        <p class="card-title">Top Song - Global</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" class="card-image">
+                        <p class="card-title">Top Song - India</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-image">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card7img.jpg" class="card-image">
+                        <p class="card-title">Top 50 - India</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card8img.jpg" class="card-image">
+                        <p class="card-title">Top 50 - Usa</p>
+                        <p class="card-info">Your daily updates of the most Played...</p>
+                    </div>
+                </div>
+
+                <h2>India's Best</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/india1.jpg" class="card-image">
+                        <p class="card-title">Bollywood song</p>
+                        <p class="card-info">The finest set of hindi romantic music...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/india2.jpg" class="card-image">
+                        <p class="card-title">Rap-91</p>
+                        <p class="card-info">India'n Rap Scene. Cover-Seedhe Maut..</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/india3.jpg" class="card-image">
+                        <p class="card-title">Top Song-Punjabi</p>
+                        <p class="card-info">India'n Rap Scene. Cover-Sidhu Moose...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/india4.jpg" class="card-image">
+                        <p class="card-title">Top Koollywood...</p>
+                        <p class="card-info">Finest collection of Tamil Music from...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/india5.jpg" class="card-image">
+                        <p class="card-title">Top Toolywood...</p>
+                        <p class="card-info">The finest set of Telugu music from...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+
+            </div>
+            <div class="music-player" style="padding-top: 1rem;">
+                <div class="album">
+                    <img src="./assets/lightimage.png" class="album-img">
+                    <div class="album-para">
+                        <div class="album-para1">
+                            <a rel="#"><b>Daylight</b></a>
+                        </div>
+                        <!-- <br> -->
+                        <div class="album-para2">
+                            <a rel="#">David Kushner</a>
+                        </div>
+                    </div>
+                    <div class="album-icons">
+                        <i class="fa-regular fa-heart" style="padding: 1rem;"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+                <div class="player">
+                    <div class="player-controlS">
+                        <img src="./assets/player_icon1.png" class="player-control-icon">
+                        <img src="./assets/player_icon2.png" class="player-control-icon">
+                        <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                        <img src="./assets/player_icon4.png" class="player-control-icon">
+                        <img src="./assets/player_icon5.png" class="player-control-icon">
+                    </div>
+                        <div class="playback-bar">
+                            <span class="curr-time">00:00</span>
+                            <input type="range" min="0" max="100" class="progress-bar" step="1">
+                            <span class="tot-time">3:33</span>
+                        </div>
+                    </div>
+                    <div class="controls">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
